@@ -1,4 +1,4 @@
-//Q.1 write a program to print hello world.
+ //Q.1 write a program to print hello world.
 #include <iostream>
 using namespace std;
 
