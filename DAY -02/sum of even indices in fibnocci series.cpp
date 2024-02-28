@@ -4,7 +4,7 @@ int main() {
 int n;
 cout<<"Enter number"<<endl;
 cin>>n;
-int fib[n];
+int fib[n*2+1];
 fib[0]=0;
 fib[1]=1;
 cout<<"Fibonacci series is:"<<endl;
