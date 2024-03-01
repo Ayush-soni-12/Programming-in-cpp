@@ -5,7 +5,7 @@ class BankAccount
     private :
     
     string bankname;
-    int accountNumber;
+    double accountNumber;
     double balance;
     public :
     
