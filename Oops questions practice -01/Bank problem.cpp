@@ -5,7 +5,7 @@ class BankAccount
     private :
     
     string bankname;
-    double accountNumber;
+    int accountNumber;
     double balance;
     public :
     
@@ -13,7 +13,7 @@ class BankAccount
     double currentbalance;
     double withdrawalamount;
     
-    BankAccount(string a,double Ac,double b){
+    BankAccount(string a,int Ac,double b){
         
         bankname =a;
         accountNumber=Ac;
