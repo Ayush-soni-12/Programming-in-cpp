@@ -9,9 +9,9 @@ class Triangle
     public :
    
     void setlength(){
-        cout<<"Enter length of triangle = "<<endl;
-        cin>>L1>>L2>>L3;
-    chktriangle();
+    cout<<"Enter length of triangle = "<<endl;
+     cin>>L1>>L2>>L3;
+     chktriangle();
     }
     void chktriangle();
     void triangle_type();
