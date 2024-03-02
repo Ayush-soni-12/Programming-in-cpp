@@ -40,9 +40,9 @@ void Triangle :: triangle_type(){
 }
 int main()
 {
-    Triangle T;
-    T.setlength();
-   // T.chktriangle();
-  //  T.triangle_type();
+     Triangle T;
+     T.setlength();
+    // T.chktriangle();
+  // T.triangle_type();
     return 0;
 }
