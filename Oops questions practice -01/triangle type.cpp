@@ -17,25 +17,23 @@ class Triangle
     void triangle_type();
 };
 void Triangle :: chktriangle(){
-    if (L1+L2>L3 && L2+L3>L1 && L1+L3>L2){
-        cout <<"Trinagle formation is possible : "<<endl;
-        triangle_type();
+if (L1+L2>L3 && L2+L3>L1 && L1+L3>L2){
+  cout <<"Trinagle formation is possible : "<<endl;
+      triangle_type();
     }
     else {
-        cout<<" Trinagle formation are not possible : "<<endl;
+cout<<" Trinagle formation are not  possible : "<<endl;
     }
-    
 }
 void Triangle :: triangle_type(){
     if (L1==L2 && L2==L3 && L3==L1){
-        cout<<"Equilateral triangle: "<<endl;
+    cout<<"Equilateral triangle: "<<endl;
     }
     else if (L1==L2 || L2==L3 ||L3==L1){
-        cout <<" Isoclecs triangle: "<<endl;
-        
+     cout <<" Isoclecs triangle: "<<endl;
     }
     else {
-        cout<<" scalene triangle: "<<endl;
+     cout<<" scalene triangle: "<<endl;
     }
 }
 int main()
